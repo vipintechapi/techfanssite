@@ -10,6 +10,8 @@ interface Props {
 
 const Home = ({ posts, categories, pagination }: Props) => {
 
+
+  console.log(posts)
   return (
     <div>Home</div>
   )
